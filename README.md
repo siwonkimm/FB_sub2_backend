@@ -19,16 +19,16 @@ Focusing on the **structural violence that arises when such unintentional and co
 
 This project consists of a main analysis, two sub-projects, and a comprehensive discussion.
 
-# **Main Project** 
+### **Main Project** 
 News Framing Analysis of 'Generation MZ' (AI-based full population analysis, heterogeneous model cross-validation, and human verification)
 
-# **Sub-project 1** 
+### **Sub-project 1** 
 AI Labeling of Comment Discourse (2020 vs. 2022) & Word2Vec/PMI Semantic Space Analysis Tool Development
 
-# **Sub-project 2** 
+### **Sub-project 2** 
 Data Cross-Verification & Data Sharing Platform **'VeriData Hub'** Construction
 
-# **Comprehensive Discussion** 
+### **Comprehensive Discussion** 
 Comparison of Frame Distributions between News Framing and Comment Discourse & Discussion on the Possibility of 'Frame Labor Division'
 
 ---
