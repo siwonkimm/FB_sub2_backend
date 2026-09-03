@@ -1,105 +1,72 @@
-# 📖 명명은 어떻게 담론이 되는가: 'MZ세대'를 둘러싼 뉴스 프레이밍과 댓글 담론의 통합 분석
+# 📖 How Naming Becomes Discourse: An Integrated Analysis of News Framing and Comment Discourse Surrounding 'Generation MZ'
 
-> **'프레임 브레이커(Frame Breaker)' 팀 프로젝트**
-> **수행 기간**: 2026. 06. 29. ~ 2026. 07. 27.
-
----
-
-## 📌 1. 프로젝트 개요 (Project Overview)
-
-### 1.1 문제의식: "이름은 해석의 방향을 만든다"
-
-'MZ세대'라는 명명(naming)은 20년 이상의 나이 차이를 가진 이질적 개인들을 하나의 동질적 집단으로 묶습니다. 언론과 기업은 익숙한 관습에 따라 이들을 '관리 대상', '마케팅 타깃', '특정한 취향을 가진 집단'으로 프레이밍하며 내적 다양성을 소거해 왔습니다.
-
-본 프로젝트는 이러한 **비의도적·관습적 프레이밍이 무의식적으로 반복될 때 발생하는 구조적 폭력성**에 주목하여, 뉴스 기사의 프레이밍부터 네이버 뉴스 댓글 공론장의 반응, 그리고 의미 공간 내 어휘 동시출현 양상까지 통합적으로 분석하는 비판적 담론 분석(Critical Discourse Analysis)을 수행했습니다.
+> **'Frame Breaker' Team Project**
+> **Project Period**: Jun 29, 2026 – Jul 27, 2026
 
 ---
 
-## 🏗️ 2. 전체 프로젝트 구성
+## 📌 1. Project Overview
 
-본 프로젝트는 메인 분석과 두 개의 서브 프로젝트, 그리고 종합 논의로 구성되어 있습니다.
+### 1.1 Problem Statement: "Naming Shapes the Direction of Interpretation"
 
-| **메인 프로젝트** | 뉴스 기사의 'MZ세대' 프레이밍 분석 (AI 기반 전수 분석 및 이종 모델/인간 검증)
+The designation 'Generation MZ' lumps heterogeneous individuals spanning a age gap of over 20 years into a single, homogeneous group. Media and corporations, out of accustomed practice, have erased internal diversity by framing them as "objects of management," "marketing targets," or a "group with specific tastes."
 
-| **서브 프로젝트 1** | 댓글 담론 AI 라벨링(2020 vs 2022) 및 Word2Vec/PMI 의미 공간 분석 툴 개발
-
-| **서브 프로젝트 2** | 데이터 상호검증 및 데이터 공유 플랫폼 **'VeriData Hub'** 구축
-
-| **통합 논의** | 뉴스 프레이밍과 댓글 담론 간의 프레임 분포 비교 및 '프레임 분업' 가능성 논의
-
-
+Focusing on the **structural violence that arises when such unintentional and conventional framing is unconsciously repeated**, this project conducts a Critical Discourse Analysis (CDA) integrating the news framing process, responses in the Naver News comment public sphere, and vocabulary co-occurrence patterns within the semantic space.
 
 ---
 
-## 🌐 3. 서브프로젝트 2: 데이터 상호검증·공유 플랫폼 `VeriData Hub`
+## 🏗️ 2. Overall Project Structure
+
+This project consists of a main analysis, two sub-projects, and a comprehensive discussion.
+
+| **Main Project** | News Framing Analysis of 'Generation MZ' (AI-based full population analysis, heterogeneous model cross-validation, and human verification) |
+| **Sub-project 1** | AI Labeling of Comment Discourse (2020 vs. 2022) & Word2Vec/PMI Semantic Space Analysis Tool Development |
+| **Sub-project 2** | Data Cross-Verification & Data Sharing Platform **'VeriData Hub'** Construction |
+| **Comprehensive Discussion** | Comparison of Frame Distributions between News Framing and Comment Discourse & Discussion on the Possibility of 'Frame Labor Division' |
+
+---
+
+## 🌐 3. Sub-project 2: Data Cross-Verification & Sharing Platform `VeriData Hub`
 
 > **Domain**: [antikimchunsu.duckdns.org](https://www.google.com/search?q=http://antikimchunsu.duckdns.org)
-> 
 
-### 3.1 프로젝트 소개 및 철학
+### 3.1 Project Introduction & Philosophy
 
-서브프로젝트 2는 본 분석 과정에서 생산된 **크롤링 원자료, AI/인간 라벨링 데이터셋, 신뢰도 검증 파이프라인의 결과물(CSV)을 한곳에 통합 관리하고 공유·열람·검증할 수 있는 플랫폼**을 구축하는 역할을 담당했습니다.
+Sub-project 2 was responsible for building a platform to **centrally manage, share, view, and verify raw crawled data, AI/human-labeled datasets, and reliability verification pipeline outputs (CSVs)** produced throughout this analysis.
 
-* **도메인명 '안티김춘수(anti-Kimchunsu)'의 의미**:
+* **Meaning of the Domain Name 'anti-Kimchunsu'**:
+It acts as an anti-thesis to the positive view of naming in poet Kim Chun-su's poem *"Flower"* (*"When I called his name, he came to me and became a flower"*). It represents the core problem statement of this project: **while the act of naming can turn an object into a 'flower,' it can also function as an exercise of power that confines and traps 'the other' into a single rigid frame.**
 
+### 3.2 Key Features
 
-김춘수 시인의 「꽃」이 다루는 명명의 긍정(*" 이름을 불러 주었을 때 그는 나에게로 와서 꽃이 되었다 "*)에 대한 반명제(Anti-thesis)입니다. **명명 행위가 대상을 '꽃'으로 만들 수도 있지만, 타자를 하나의 틀로 묶고 가두는 권력 효과로 작동할 수도 있다**는 본 프로젝트의 핵심 문제의식을 대변합니다.
-
-
-
-### 3.2 핵심 기능
-
-1. **분석 결과물(CSV/Data) 중앙 집약 및 공개**
-
-* 뉴스 기사 데이터셋(8,156건), 댓글 데이터셋(2020년/2022년), PMI 어휘 분석 결과 등 원자료 및 중간 산출물 일체 제공.
+1. **Centralization & Open Access to Analysis Artifacts (CSV/Data)**
+* Provides all raw data and intermediate outputs, including the news article dataset (8,156 cases), comment datasets (2020 / 2022), and PMI vocabulary analysis results.
 
 
+2. **Data Cross-Verification & Ensuring Reproducibility**
+* Delivers an interface for research participants and external verifiers to browse datasets and cross-check labeling results (AI labels vs. Human labels).
+* Maximizes transparency and reproducibility of the analysis process through open data practices.
 
 
-2. **데이터 상호검증 (Cross-Verification) 및 재현성 확보**
-
-* 연구 참여자 및 외부 검증자가 데이터셋을 열람하고 라벨링 결과(AI 라벨 vs 인간 라벨)를 교차 확인할 수 있는 인터페이스 제공.
-
-
-* 연구 절차의 오픈 데이터화(Open Data)를 통해 분석 과정의 재현 가능성과 투명성 극대화.
+3. **Data Exchange & Interactive Community**
+* Functions as a communication space to gather feedback on research outputs among team members and project researchers.
 
 
 
+### 3.3 Architecture & Backend
 
-3. **데이터 교환 및 대화형 커뮤니티**
-
-* 팀원 및 프로젝트 연구진 간 연구 산출물 피드백 수렴 및 커뮤니케이션 공간 역할.
-
-
-
-
-
-### 3.3 아키텍처 및 백엔드
-
-* **백엔드 구축**: 데이터셋 업로드/다운로드, 교차 검증 데이터 매핑 API 개발.
-
-
-* **도메인 및 인프라**: DuckDNS 기반 고유 도메인 연동 및 데이터 허브 서버 운용 (`antikimchunsu.duckdns.org`).
-
-
+* **Backend Development**: Built data upload/download functionalities and cross-verification data mapping APIs.
+* **Domain & Infrastructure**: Configured a custom domain integration via DuckDNS and operated the Data Hub server (`antikimchunsu.duckdns.org`).
 
 ---
 
-## 📊 4. 주요 연구 결과 요약
+## 📊 4. Summary of Key Findings
 
-1. **뉴스 프레임 (Part I)**: 프레임이 존재하는 기사(17.1%) 중 타자화(59.3%)와 일반화(39.9%)가 절대적 다수를 차지하였으며, 직접적인 도덕적 비난이나 결핍 프레임은 나타나지 않았습니다.
-
-
-2. **댓글 담론의 변화 (Part II)**: 2020년 대비 2022년 댓글 공론장에서 세대 담론 비율이 2.6배 증가(3.9% → 10.3%)했으며, 담론의 중심축이 '일반화'에서 '개인의 선택 문제·도덕적 비난(50.7%)'으로 급격히 이동했습니다.
-
-
-3. **의미 공간 분석 (Part III)**: PMI 공기어 분석 결과, 'MZ'와 가장 유의미하게 동시출현하는 어휘 1위로 '벌레'($G^2=32.71$)가 추출되어 댓글 공론장에서 비하/혐오 표현과의 강한 결합을 확인했습니다.
-
-
-4. **프레임의 분업 가능성 (Part V)**: 뉴스는 타자화/일반화 프레임을 공급하고, 댓글 공론장에서는 이를 받아 도덕적 비난 및 혐오 담론으로 소비하는 '프레임 분업 구조'의 탐색적 가능성을 확인했습니다.
-
-
+1. **News Frame (Part I)**: Among articles containing frames (17.1%), Othering (59.3%) and Generalization (39.9%) accounted for the overwhelming majority, while direct moral condemnation or deficiency frames were absent.
+2. **Shift in Comment Discourse (Part II)**: In the comment public sphere, the proportion of generational discourse increased 2.6-fold in 2022 compared to 2020 (3.9% → 10.3%), with the main axis of discourse rapidly shifting from 'Generalization' to 'Individual Choice / Moral Condemnation (50.7%)'.
+3. **Semantic Space Analysis (Part III)**: PMI co-occurrence analysis revealed 'bug' (벌레) ($G^2=32.71$) as the top vocabulary significantly co-occurring with 'MZ', confirming a strong coupling with derogatory and hate expressions in the comment public sphere.
+4. **Possibility of Frame Labor Division (Part V)**: Confirmed the exploratory possibility of a 'frame labor division structure', where news outlets supply Othering/Generalization frames, and the comment public sphere consumes them in the form of moral condemnation and hate discourse.
 
 ---
 
-> 본 서술은 서브프로젝트2에 기반한 서술입니다.
+> This narrative is based on Sub-project 2.
